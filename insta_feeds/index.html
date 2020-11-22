@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dark square instagram feed</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Titillium+Web:700" rel="stylesheet">
+    <link rel="stylesheet" href="insta_script/demo-style.min.css">
+</head>
+<body>
+
+    <div class="playground container">
+        <div class="controls text">
+            <h5>What do you want to generate a feed from? - Use # or @ like you would on instagram.</h5>
+            <input type="text" id="hashtag-input" placeholder="E.g: @instagram or #summer">
+            <h5>How many items do you want?</h5>
+            <input type="text" id="limit-input" placeholder="E.g: 9">
+            <button id="new-feed">Generate feed</button>
+        </div>
+        <div id="playground-result" class="result"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="instastory.js"></script>
+    <script src="insta_script/demo.js"></script>
+</body>
+</html>

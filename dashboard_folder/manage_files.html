@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" href="./../img/fav-icon.png" type="image/x-icon" />
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>About us | Who we are | What we do | Get to know us | Dark Square</title>
+
+        <!-- Icon css link -->
+        <link href="./../css/font-awesome.min.css" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link href="./../css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Rev slider css -->
+        <link href="./../vendors/revolution/css/settings.css" rel="stylesheet">
+        <link href="./../vendors/revolution/css/layers.css" rel="stylesheet">
+        <link href="./../vendors/revolution/css/navigation.css" rel="stylesheet">
+
+      <!-- Extra plugin css -->
+        <link href="./../vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
+        <link href="./../vendors/magnify-popup/magnific-popup.css" rel="stylesheet">
+
+        <link href="./../css/style.css" rel="stylesheet">
+        <link href="./../css/responsive.css" rel="stylesheet">
+        <link href="./../css/dashboard.css" rel="stylesheet">
+		      <!-- Global site tag (gtag.js) - Google Analytics -->
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140908607-1"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-140908607-1');
+          </script>
+    </head>
+    <body>
+
+        <!--==================main container=========================-->
+          <div class="dashboard-area">
+
+            <div class="data-section" style="width:100%;">
+
+              <div class="file_actions">
+                <div class="file_actions_blocks">
+                  <div id="file_action_message"> </div>
+
+                  <div class="actions">
+
+                    <div class="file_operation file_upload_iframe" style= "display:none;">
+                      <iframe class="action" src="./fileuploads/index.html">frame</iframe>
+                    </div>
+                    <div class="files_operation">
+                      <input class="action operation add_file" type="button" name="" value="Add file">
+                    </div>
+                    <div class="files_operation">
+                      <input class="action operation delete_file" type="button" name="" value="Delete file">
+                    </div>
+                    <div class="files_operation">
+                      <input class="action operation rename_file" type="button" name="" value="Rename file">
+                    </div>
+                    <div class="file_rename_input_section">
+                      <input type="text" name="new_file_name" placeholder="New file name" id ="new_file_name" class="rename">
+                      <input type="button" name="rename_button" value="OK" class="rename" id = "rename_submit_button">
+                    </div>
+                    <div class="files_operation">
+                      <input class="action operation select_file" type="button" name="" value="Select file">
+                    </div>
+                    <div class="files_operation">
+                      <p class="action" style="font-size: small;">MY DRIVE</p>
+                    </div>
+                    <div class="files_operation">
+                      <p class="action active_operation active_operation_style"><span class="active_operation file_marker_span">|</span><i class="fa fa-folder-open-o"></i>&nbsp;All files</p>
+                    </div>
+                    <div class="files_operation">
+                      <p class="action active_operation"><span class="active_operation file_marker_span">|</span><i class="fa fa-clock-o"></i>&nbsp;Recents</p>
+                    </div>
+                    <div class="files_operation">
+                      <p class="action active_operation"><span class="active_operation file_marker_span">|</span><i class="fa fa-star-o"></i>&nbsp;Important</p>
+                    </div>
+                    <div class="files_operation">
+                      <p class="action " style="font-size: small;">LABELS</p>
+                    </div>
+                    <div class="files_operation">
+                      <p class="action active_operation"><span class="active_operation file_marker_span">|</span><i class="fa fa-files-o"></i>&nbsp;Documents</p>
+                    </div>
+                    <div class="files_operation">
+                      <p class="action active_operation"><span class="active_operation file_marker_span">|</span><i class="fa fa-file-image-o"></i>&nbsp;Images</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="file_spaces">
+                  <div class="note">
+                    <div class="file_search_icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                    <form class="file_search_form" action="" method="post">
+                      <input type="text" name="search_files" placeholder="Enter full file name" class="search_files">
+                      <i class="fa fa-user-o"></i>
+                      <i class="fa fa-trash"></i>
+                      <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                      <input type="submit" name="search_files_button" value="Search" class="search_files_button">
+                    </form>
+                  </div>
+                  <div class="file_display">
+
+                    <!-- file will be add over here  dynamatically -->
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        <!--==================main container end=====================-->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="./../js/jquery-3.2.1.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="./../js/popper.min.js"></script>
+        <script src="./../js/bootstrap.min.js"></script>
+        <!-- Extra plugin css -->
+        <script src="./../vendors/counterup/jquery.waypoints.min.js"></script>
+        <script src="./../vendors/counterup/jquery.counterup.min.js"></script>
+        <script src="./../vendors/counterup/apear.js"></script>
+        <script src="./../vendors/counterup/countto.js"></script>
+        <script src="./../vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="./../vendors/magnify-popup/jquery.magnific-popup.min.js"></script>
+
+        <!-- script to process form data i.e. contact or subcriptions-->
+          <script src="./../js/jquery.form.js"></script>
+          <script src="./../js/jquery.validate.min.js"></script>
+
+
+        <script src="./../js/theme.js"></script>
+        <script src="./fileuploads/js/display_files.js" charset="utf-8"></script>
+    </body>
+</html>

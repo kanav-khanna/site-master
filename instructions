@@ -1,0 +1,143 @@
+
+> Advertising
+> Digital Marketing
+> Social Media Marketing
+> Lead Generation
+> SEO / SEM
+> Influencer Marketing
+> Web Development
+> Web Chat Support
+> App Development
+> Business Consultancy
+> Other
+
+
+Home Page
+
+-Align the Red line for "We innovate, we think..."
+
+-Bring the slider to center vertically and horizontally on the page
+
+-Shift what we offer to little lower
+
+-Reorder the services in this order: Marketing and Advertising, Digital Transformation, Business Consultancy, Insto Lead and Go Live Chat
+
+-Make read more option red on hover (applicable to whole website)
+
+-Change the number of happy clients to 63+, Projects delivered to 432+, cups of coffee to 2340+, Locations 4+ (applicable to whole website)
+
+-Who we are section needs to be aligned – words are jumbled right now.
+
+-Shift blog section after "we build a strong team of great people" and give it heading "Our latest blogs"
+
+-Locations we serve: Heading "North America" and list Canada and USA, Heading "Asia Pacific" and list India and Heading "Middle East" list UAE, Saudia Arabia, Qatar, Kuwait.
+
+
+
+
+-Navigation Menu
+
+-List under Service: Marketing and Advertising, Digital Transformation, Insto Lead and Go Live Chat
+
+-Under Marketing and Advertising Services: Brand Building, Strategy Building, Lead generation, Digital Marketing, Social Media Marketing, Web Development, Content Writing, Art Direction, Public Relations, SEO/SEM
+
+-Under Digital Transformation: App Development, *I will tell you more shortly.
+
+
+
+
+Here is the XD link for your ready reference: https://xd.adobe.com/view/b9ac84fd-610e-4c2f-b0db-628d823ff7b6-ecff/
+
+
+
+
+
+-Codes to implement:
+
+
+
+-Copy the code below and paste it onto every page of your website.
+
+-Paste this code as high in the <head> of the page as possible:
+
+<!-- Google Tag Manager -->
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+})(window,document,'script','dataLayer','GTM-W6C8Z6P');</script>
+
+<!-- End Google Tag Manager -->
+
+
+
+-Additionally, paste this code immediately after the opening <body> tag:
+
+
+<!-- Google Tag Manager (noscript) -->
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6C8Z6P"
+
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+
+-I will send you other codes later once site is live. It is the part of the process.
+
+
+
+-Please find the changes for general settings.
+
+
+
+Navigation:
+
+Make the selected page white like we do it on hover.
+
+
+Font Update: (Helvetica Nue)
+
+Please update the attached font on the website before making any changes on it.
+Follow the proper guidelines for font size and weight.
+
+
+Screenshots :
+
+See the attached screenshots for other necessary changes.
+
+
+
+Hi Ajay,
+
+
+
+Please see the below comments for the web changes.
+
+
+
+
+
+About us
+
+-Align heading and body text in one line.
+-Change the body text to: I have corrected the grammar so replace the text with this one.
+
+Dark Square is a full-service creative agency offering innovative marketing and advertising solutions to various industries. As an efficient in digital, web design, e-commerce, website conversion, and social media marketing services, our firm prides itself on driving traffic, converting visitors, and measuring effectiveness to deliver ultimate real results for our clients.
+We have an ever-expanding variety of programmatic solutions. Get in touch with us today to experience what makes Dark Square stand apart from other digital agencies. We look beyond segments and screens to identify, captivate, and engage audiences across every phase of the customer journey.
+
+-Change the numbers to same as home page
+Make the testimonial boxes little bit square
+
+
+
+
+Rest is good. Just implement these changes.

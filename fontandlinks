@@ -1,0 +1,15 @@
+
+paragraph  font-family: Helvetica Neue
+           size: 19
+
+           we innowate: color: #e50914
+                        size: 40 thin
+                        font family: same
+           heading: 125 medium
+           gray: #bfbfbf
+           dark gray: #4b4b4b
+           footer: #ececec
+           red: #e50914
+           flex: 0 0 33.333333%;
+           max-width: 33.333333%;
+https://xd.adobe.com/view/b9ac84fd-610e-4c2f-b0db-628d823ff7b6-ecff/?fullscreen

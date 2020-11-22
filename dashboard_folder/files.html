@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" href="./../img/fav-icon.png" type="image/x-icon" />
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>About us | Who we are | What we do | Get to know us | Dark Square</title>
+
+        <!-- Icon css link -->
+        <link href="./../css/font-awesome.min.css" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link href="./../css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Rev slider css -->
+        <link href="./../vendors/revolution/css/settings.css" rel="stylesheet">
+        <link href="./../vendors/revolution/css/layers.css" rel="stylesheet">
+        <link href="./../vendors/revolution/css/navigation.css" rel="stylesheet">
+
+      <!-- Extra plugin css -->
+        <link href="./../vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
+        <link href="./../vendors/magnify-popup/magnific-popup.css" rel="stylesheet">
+
+        <link href="./../css/style.css" rel="stylesheet">
+        <link href="./../css/responsive.css" rel="stylesheet">
+        <link href="./../css/dashboard.css" rel="stylesheet">
+		      <!-- Global site tag (gtag.js) - Google Analytics -->
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140908607-1"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-140908607-1');
+          </script>
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+        <!--================Header Menu Area =================-->
+        <header class="main_menu_area" >
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html"><img src="./../img/DarkSquareLogo.png" alt="" width="100"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars" aria-hidden="true" style="color:red;"></i>
+                    <!--<span></span>
+                    <span></span>
+                    <span></span>-->
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav">
+                      <li class="nav-item"><a class="nav-link" href="./../index.html"><span>|</span>&nbsp;Home</a></li>
+                      <li class="nav-item"><a class="nav-link" href="./../service.html"><span>|</span>&nbsp;Services</a></li>
+                      <li class="nav-item"><a class="nav-link" href="./../portfolio.html"><span>|</span>&nbsp;Portfolio</a></li>
+                      <li class="nav-item"><a class="nav-link" href="./../blogs.html"><span>|</span>&nbsp;Blogs</a></li>
+                      <li class="nav-item"><a class="nav-link" href="./files.html"><span>|</span>&nbsp;Files Board</a></li>
+                      <li class="nav-item"><a class="nav-link" href="./../admin.html"><span>|</span>&nbsp;Admin Dashboard</a></li>
+                      <li class="nav-item"><a class="nav-link" href="./../client.html" target="_blank"><span>|</span>&nbsp;Client Dashboard</a></li>
+                      <li class="nav-item"><a class="nav-link" href="./../contact.html"><span>|</span>&nbsp;Contact</a></li>
+                  </ul>
+                </div>
+            </nav>
+        </header>
+        <!--================End Header Menu Area =================-->
+        <!--==================main container=========================-->
+          <div class="dashboard-area">
+            <div class="info-section file_info-section">
+              <div class="profile-section">
+                <div class="headings headings_files">
+                  <img src="./../img/DarkSquareLogo.png" alt="profile image">
+                </div>
+                <div class="username-section">
+                  <p>signed in as <span id = "admin_username">username</span> <span title="Log out"><i class="fa fa-sign-out" aria-hidden="true"></i></span></p>
+                </div>
+              </div>
+              <div class="file_actions_blocks">
+                <iframe src="./fileuploads/index_files.html" width="" height="" class="file_iframe">frame</iframe>
+                <div id="file_action_message"> </div>
+
+                <div class="actions file_actions_client">
+                  <input class="action select_file" type="button" name="" value="Select file">
+                  <input class="action delete_file" type="button" name="" value="Delete file">
+                  <input class="action rename_file" type="button" name="" value="Rename file">
+
+                </div>
+                <div class="file_rename_input_section files_file_rename_input_section">
+                  <input type="text" name="new_file_name" placeholder="New file name" id ="new_file_name" class="rename">
+                  <input type="button" name="rename_button" value="OK" class="rename" id = "rename_submit_button">
+                </div>
+                <div class="note">
+                  <p class="action"><span>Note :</span>Please select one file then perform action.</p>
+                </div>
+              </div>
+            </div>
+            <div class="data-section file_data_section">
+
+              <div class="file_actions">
+                <div class="file_display">
+                  <!-- file will be add over here  dynamatically -->
+                </div>
+
+
+              </div>
+
+            </div>
+          </div>
+        <!--==================main container end=====================-->
+
+
+        <!--================Footer Area ==========================-->
+        <footer>
+          <div class="footer_copyright"style=" bottom: 0px; position: fixed; width: 100%; ">
+              <div class="container footer_container">
+                  <div class="float-sm-left">
+                      <h5><!-- Link back to Dark Square Inc. can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Dark Square Inc. | <a href="privacy_policy.html">Privacy Policy.</a>
+<!-- Link back to Dark Square Inc. can't be removed. Template is licensed under CC BY 3.0. --></h5>
+                  </div>
+                  <div class="float-sm-right">
+                      <ul>
+                          <li><a href="https://www.instagram.com/darksqrca" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                          <li><a href="https://www.facebook.com/darksqrca/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                          <li><a href="https://twitter.com/darksqrca" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="https://www.linkedin.com/company/dark-square-ca" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </footer>
+        <!--================End Footer Area =================-->
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="./../js/jquery-3.2.1.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="./../js/popper.min.js"></script>
+        <script src="./../js/bootstrap.min.js"></script>
+        <!-- Extra plugin css -->
+        <script src="./../vendors/counterup/jquery.waypoints.min.js"></script>
+        <script src="./../vendors/counterup/jquery.counterup.min.js"></script>
+        <script src="./../vendors/counterup/apear.js"></script>
+        <script src="./../vendors/counterup/countto.js"></script>
+        <script src="./../vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="./../vendors/magnify-popup/jquery.magnific-popup.min.js"></script>
+
+        <!-- script to process form data i.e. contact or subcriptions-->
+          <script src="./../js/jquery.form.js"></script>
+          <script src="./../js/jquery.validate.min.js"></script>
+
+
+        <script src="./../js/theme.js"></script>
+        <script src="./fileuploads/js/display_file_board_files.js" charset="utf-8"></script>
+    </body>
+</html>
