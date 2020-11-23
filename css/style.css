@@ -633,12 +633,10 @@ i:before {
   color: black;
   letter-spacing: 0.1em;
   border-width: 2px 0;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.4;
-  /* font-weight: 400; */
+  font-weight: bold;
   font-style: normal;
-
-
   align-items: center;
   justify-content: center;
   display: flex;
@@ -647,7 +645,7 @@ i:before {
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
-}
+  }
 
 .main_menu_area .navbar .navbar-nav li a span {
   color: #01bbc8;
@@ -1171,11 +1169,12 @@ span a:hover {
 }
 
 .testimonials_slider .item {
-  background-color: #00a2ed08;
-  ;
-  width: 320px;
-  height: 320px;
-  padding: 10px 0px;
+  border: 1px solid #ececec;
+background-color: #00a2ed08;
+width: 320px;
+height: 320px;
+padding: 10px 0px;
+
 }
 
 .testimonials_area .l_title h1 {
@@ -1368,15 +1367,16 @@ span a:hover {
   padding: 0px 10vw;
 }
 
-.service_feature .feature_inner .feature_item {
-  display: flex;
-  margin-bottom: 30px;
-  text-align: center;
-  padding: 0;
-  border: 3px solid #00a2ed19;
-  height: 90%;
-  width: 90%;
-  flex-wrap: wrap;
+.service_feature .feature_inner .feature_item
+{
+display: flex;
+margin-bottom: 30px;
+text-align: center;
+padding: 0;
+border: 1px solid #ececec;
+height: 90%;
+width: 90%;
+flex-wrap: wrap;
 }
 
 .service_container .s_solution_inner {
