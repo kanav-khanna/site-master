@@ -323,7 +323,7 @@ a {
 }
 
 .p_100 {
-  padding: 100px 0px;
+  padding: 75px 0px;
 }
 
 .portfolio_blog {
@@ -882,12 +882,13 @@ i:before {
   width: 90vw;
 }
 
-.banner_area {
-  padding: 0vh 0 35vh;
-  margin-top: -.5%;
-  position: relative;
-  z-index: 3;
-  overflow: hidden;
+.banner_area
+{
+padding: -1vh 0 35vh;
+margin-top: -.5%;
+position: relative;
+z-index: 3;
+overflow: hidden;
 }
 
 .banner_area .l_title {
@@ -1158,7 +1159,7 @@ span a:hover {
 }
 
 .testimonials_area .l_title {
-  padding: 40px 8%;
+  padding: 25px 8%;
 }
 
 .container_testimonials {
@@ -1372,7 +1373,7 @@ span a:hover {
   margin-bottom: 30px;
   text-align: center;
   padding: 0;
-  border: 1px solid #00a2ed19;
+  border: 3px solid #00a2ed19;
   height: 90%;
   width: 90%;
   flex-wrap: wrap;
@@ -1383,7 +1384,7 @@ span a:hover {
 }
 
 .container-service {
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 
 .service_feature .container {
@@ -1480,7 +1481,7 @@ span a:hover {
 
 .container-fluid .row {
   background: #ffffff;
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 .team_people_text p {
@@ -1598,8 +1599,8 @@ span a:hover {
 }
 
 .get_touch_inner {
-  padding-left: 12vw;
-  margin: 150px 0 40px;
+  padding-left: 20vw;
+  margin: 40px 0 40px;
 }
 
 .l_title_footer {
@@ -1884,7 +1885,7 @@ span a:hover {
 
 .talk_area {
   background-color: #ffffff;
-  padding: 160px 0px 0px;
+  padding: 55px 0px 0px;
 }
 
 .talk_text {
@@ -2107,7 +2108,7 @@ span a:hover {
 }
 
 .mileston_area .container_numbers {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .mileston_item {
@@ -3009,6 +3010,13 @@ span a:hover {
 }
 
 .blog_container {
+
+  width: 33.3%;
+}
+
+
+.blog_container {
+  
   width: 33.3%;
 }
 
@@ -3601,7 +3609,7 @@ span a:hover {
 }
 
 .number_row {
-  padding: 100px 10%;
+  padding: 65px 5%;
 }
 
 .main-container {

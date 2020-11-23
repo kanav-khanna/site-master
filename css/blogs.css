@@ -1,8 +1,12 @@
+
+
 .steps{
     display: flex;
     margin: 150px 0;
     align-items: center;
 }
+
+
 .paragraph_cover{
   margin: 20px 0;
 }
@@ -62,6 +66,7 @@
   height: 75%;
   /* width: 90% */
 }
+
 .blog_container .blog_wrap .image_container{
   height: 65%;
   /* width: 90% */
@@ -99,7 +104,7 @@
   margin-top: 15px;
 }
 .blog_tag_line{
-  margin: 15vh 0 0;
+  margin: 3vh 0 0;
 }
 .blog_tag_line img{
   margin: 30px 0px;
@@ -124,24 +129,7 @@
   width: 33.33%;
   height: 90%;
 }
-.blog_get_in_touch_area .container_get_it_touch .contact_row .location_info .touch_details{
-  /* margin-left: 10%; */
-}
-/* .overlay {
-  position: absolute;
-  top: -20px;
-  right: -2%;
-  height: 550px;
-  width: 95%;
-  border-radius: 0;
-  opacity: 0;
-  transition: .5s ease;
-  mix-blend-mode: hard-light;
-  background-image: linear-gradient(#000000, #D3D3D3);
-}
-.image_hover_cover:hover .overlay{
-  opacity: 1;
-} */
+
 hr{
   width: 100%;
 }
